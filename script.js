@@ -16,7 +16,7 @@ let textnode = document.createTextNode("Water");         // Create a text node
 node.appendChild(textnode);                              // Append the text to <li>
 document.getElementById("myList").appendChild(node);     // Append <li> to <ul> with id="myList"
 
-//Question 11
+//Question 12
 let theOrderList = document.getElementById("orderList")
 let items = theOrderList.getElementsByTagName("li")
 for(let i  =0; i < items.length; i++)
@@ -24,7 +24,7 @@ for(let i  =0; i < items.length; i++)
     document.getElementById('orderList').style.backgroundColor = "green"
 }
 
-//Question 12
+//Question 13
 var ele = document.getElementById("myDiv")
 ele.remove();
   
