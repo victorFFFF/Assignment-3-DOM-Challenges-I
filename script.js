@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-document.getElementById("container");
 
-document.querySelector("#container");
-document.querySelectorAll(".second");
-=======
 //Question 1
 let theContainer = document.getElementById('container')
 console.log(theContainer)
@@ -16,16 +11,7 @@ console.log(theContainer2)
 let allSecond = document.querySelectorAll(".second")
 console.log(allSecond)
 
-//Quesiton4
-let i =document.getElementById("container").querySelector('section ol .third')
-console.log(i)
 
-//Question5
-let para = document.createElement("p");
-let paraNode = document.createTextNode("Hello")
-para.appendChild(paraNode)
-let existing = document.getElementById("container")
-existing.appendChild(paraNode) 
 
 
 
@@ -47,4 +33,4 @@ for(let i  =0; i < items.length; i++)
 var ele = document.getElementById("myDiv")
 ele.remove();
   
->>>>>>> master
+
