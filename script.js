@@ -1,4 +1,5 @@
 
+
 //Question 1
 let theContainer = document.getElementById('container')
 console.log(theContainer)
@@ -11,6 +12,17 @@ console.log(theContainer2)
 let allSecond = document.querySelectorAll(".second")
 console.log(allSecond)
 
+
+//4) Select a list item with a class of third, but only the list item inside of the ol tag.
+document.getElementById("container").querySelector('section ol .third')
+
+//5) Give the section with an id of container the text "Hello!".
+var message=document.getElementById('container')
+message.append('Hello!')
+
+//6) Add the class main to the div with a class of footer.
+const ans6 = document.getElementsByClassName("footer")[0].classList.add("main");
+console.log(ans6);
 
 
 
