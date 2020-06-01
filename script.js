@@ -1,5 +1,9 @@
-//Question7
-document.createElement("li")
+//Question8
+newLi = document.createElement("li")
+
+//Question9
+newLi.textContent = "four"
+
 
 
 
