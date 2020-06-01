@@ -1,5 +1,4 @@
 
-
 //Question 1
 let theContainer = document.getElementById('container')
 console.log(theContainer)
@@ -25,6 +24,12 @@ const ans6 = document.getElementsByClassName("footer")[0].classList.add("main");
 console.log(ans6);
 
 
+//Question8
+newLi = document.createElement("li")
+
+//Question9
+newLi.textContent = "four"
+
 
 
 //Question 10
@@ -44,5 +49,4 @@ for(let i  =0; i < items.length; i++)
 //Question 12
 var ele = document.getElementById("myDiv")
 ele.remove();
-  
 
