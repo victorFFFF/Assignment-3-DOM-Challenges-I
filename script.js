@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+document.getElementById("container");
+
+document.querySelector("#container");
+document.querySelectorAll(".second");
+=======
 //Question 1
 let theContainer = document.getElementById('container')
 console.log(theContainer)
@@ -41,3 +47,4 @@ for(let i  =0; i < items.length; i++)
 var ele = document.getElementById("myDiv")
 ele.remove();
   
+>>>>>>> master
