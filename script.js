@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-//Question7
-document.querySelector(".footer").classList.remove("main")
-=======
 
 //Question 1
 let theContainer = document.getElementById('container')
@@ -27,7 +23,10 @@ message.append('Hello!')
 const ans6 = document.getElementsByClassName("footer")[0].classList.add("main");
 console.log(ans6);
 
->>>>>>> ad35d573a766b8b95f7bc4949b2b9393780c4890
+
+//Question7
+document.querySelector(".footer").classList.remove("main")
+
 
 //Question8
 newLi = document.createElement("li")
